@@ -1,0 +1,16 @@
+stage.set_background("flowers")
+sprite = codesters.Sprite("kitten")
+
+choice = sprite.ask("What is your favorite flavor of ice cream?")
+
+if choice == "vanilla":
+    sprite.say("Vanilla ice cream is great!")
+    
+
+if choice == "strawberry":
+    sprite.say("strawberries are great!") 
+    
+
+
+if choice == "chocolate":
+    sprite.say("Chocolate ice cream is delicious.")
